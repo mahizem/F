@@ -1,0 +1,50 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #885233;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+}
+
+.header .logo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #FEC232;
+    text-decoration: none;
+}
+
+
+    
+    input[type="text"] {
+        width: 80%;
+        padding: 10px;
+        margin-left: 10px;
+       
+    }
+
+    select {
+        width: 85%;
+        padding: 10px;
+        margin-left: 10px;
+       
+    }
+    
+
+
+
+button {
+    display: block;
+    margin-top: 20px;
+    margin-left: 150px;
+    padding: 10px 20px;
+    background-color: #3a1906;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

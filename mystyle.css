@@ -1,0 +1,581 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: url("C:\Users\Administrator\Pictures\online banking\4.png");
+    background-repeat: no-repeat; */
+  background-image: url("forlog2.png");
+  background-size: 100%;
+}
+
+div.trans h1 {
+  margin: 5%;
+  font-weight: bold;
+  font-size: x larger;
+  padding: 2rem 3rem;
+  border-radius: 4px;
+  color: #000000;
+  border: 1px solid #681634c3;
+}
+
+.goes {
+  text-align: center;
+}
+
+.go {
+  padding: 5% 5% 5%;
+}
+
+h1,
+h2 {
+  color: #00000089;
+  font-family: serif;
+}
+
+.writing {
+  /* background-image: url("C:\Users\Administrator\Pictures\online banking\4.png");
+     background-repeat: no-repeat; */
+  background-image: url("forlog2.png");
+  background-size: 100%;
+  background-position: relative;
+  top: 200px;
+  color: #000000;
+}
+
+h3 {
+  float: left;
+  clear: left;
+  text-align: left !important;
+  width: 100%;
+}
+.bold {
+  float: left;
+  text-align: left !important;
+  width: 100%;
+  top: 8px;
+  position: relative;
+  color: #000000;
+  background-image: url("forlog2.png");
+}
+
+.bolding {
+  color: #000000;
+  background-image: url("forlog2.png");
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-image: url("forlog2.png");
+  color: #000000;
+  border: 1px solid #681634c3;
+  margin: 0 1rem;
+}
+
+.btnn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #885233;
+  color: #000000;
+  background-image: url("forlog2.png");
+  margin: 0 1rem;
+}
+.btnn2 {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-image: url("forlog2.png");
+  color: #f8d50b;
+  border: 1px solid #681634c3;
+  margin: 0 1rem;
+}
+.btnn2:hover {
+  background-color: #9c6114;
+  border-color: #9c6114;
+}
+.btnn:hover {
+  background-color: #9c6114;
+  border-color: #9c6114;
+}
+
+.btn:hover {
+  background-color: #9c6114;
+  border-color: #9c6114;
+}
+
+.btn--alt {
+  background-color: transparent;
+  color: #800040;
+}
+
+.btn--alt:hover {
+  background-color: #f8dae9;
+}
+
+/* .card {
+    background-color: rgba(126, 155, 188, 0.491);
+    border-radius: 9px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    width: 20rem;
+  } */
+
+.actions {
+  text-align: right;
+}
+
+/* .modal {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 30rem;
+    z-index: 10;
+    position: fixed;
+    top: 20vh;
+    left: calc(50% - 15rem);
+  } */
+
+/* .backdrop {
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  } */
+/* .c-container{
+  
+    min-height: calc(100vh - 34px);
+  } */
+.spacings {
+  /* width: 250px; */
+  /* -webkit-filter: drop-shadow(5px 5px 5px #666666); */
+  filter: drop-shadow(5px 5px 5px #666666);
+  float: left;
+  width: 13.33%;
+  padding: 5px;
+  top: -20px;
+  position: relative;
+}
+.hover02 figure img {
+  width: 300px;
+  height: auto;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.hover02 figure:hover img {
+  width: 350px;
+}
+
+.space {
+  filter: drop-shadow(5px 5px 5px #666666);
+  float: left;
+  width: 24.33%;
+  padding: 5px;
+  top: -3px;
+  position: relative;
+}
+
+.colomn {
+  filter: drop-shadow(5px 5px 5px #666666);
+  float: left;
+  width: 24.33%;
+  padding: 5px;
+  top: -3px;
+  position: relative;
+}
+.b {
+  top: 10px;
+  float: left;
+  text-align: left !important;
+  width: 100%;
+  top: 8px;
+  position: relative;
+  color: #000000;
+  background-image: url("forlog2.png");
+}
+.row1 {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
+.roww {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
+.row {
+  content: "";
+  clear: both;
+  display: table;
+}
+.footer-p {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  border: 1px solid #681634c3;
+  color: #f8d50b;
+  box-sizing: border-box;
+  background-image: url("forlog2.png");
+  border: 1px solid #681634c3;
+}
+.headingg {
+  color: rgb(201, 122, 122);
+
+  text-transform: uppercase;
+
+  letter-spacing: 5px;
+
+  font-size: 30px;
+}
+
+.nav-links {
+  display: flex;
+
+  justify-content: space-around;
+
+  width: 100%;
+  background-image: url("forlog2.jpg");
+}
+/* nav-links button {
+  
+    list-style: none;
+  
+  } */
+
+/* .nav-links p {
+  
+    color: rgb(219, 247, 7);
+  
+    text-decoration: none;
+  
+    letter-spacing: 3px;
+  
+    font-weight: bold;
+  
+    font-size: 14px;
+  
+    padding: 10px 12px;
+  
+  } */
+
+/* .nav-links p:hover:not(.active) {
+  
+    background-color: #4caf50;
+  
+  }
+  
+  .nav-links button p.active {
+  
+    background-color: #4caf50;
+  
+  } */
+
+.dropbtn {
+  background-image: url("forlog2.png");
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropbtn2 {
+  padding-bottom: 20px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-image: url("forlog2.png");
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: relative;
+  margin-left: 180px;
+  background-image: url("forlog2.png");
+  min-width: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  color: black;
+  padding: 2px 6px;
+  text-decoration: none;
+  display: block;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content1 a:hover {
+  background-color: #885233;
+}
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #885233;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #885233;
+}
+
+.dropdown1:hover .dropbtn2 {
+  background-color: #885233;
+}
+
+.multiselect {
+  width: 200px;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+}
+
+#checkboxes label {
+  display: block;
+}
+
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
+.field1 {
+  width: 30%;
+
+  color: #f8d50b;
+  font-weight: bolder;
+  border-radius: 40px;
+
+  float: left;
+  padding: 10px;
+  margin-right: 70px;
+}
+.field2 {
+  width: 60%;
+  float: left;
+  padding: 10px;
+
+  color: #f8d50b;
+  font-weight: bolder;
+  border-radius: 40px;
+}
+
+input {
+  border-radius: 5px;
+  border-color: #885233;
+}
+fieldset {
+  border-style: none;
+  border-color: none;
+  margin-bottom: 30px;
+}
+legend {
+  background-image: url("forlog2.png");
+  color: #000000;
+}
+button {
+  background-image: url("forlog2.png");
+  color: #000000;
+  border-radius: 10px;
+  border-color: #a59f7c;
+}
+button:hover {
+  background-color: #f8e80b;
+}
+
+.btobbox {
+  margin-left: 300px;
+  margin-right: 300px;
+  background-image: url("forlog2.png");
+  color: #f8d50b;
+  font-weight: bolder;
+  border-radius: 40px;
+  border-color: #885233;
+  box-shadow: #666666;
+}
+.logfield1 {
+  width: 30%;
+
+  color: #fec232;
+  font-weight: bolder;
+  border-radius: 40px;
+
+  float: left;
+  padding: 10px;
+  margin-right: 70px;
+  margin-bottom: 20px;
+}
+.logfield2 {
+  width: 60%;
+  float: left;
+  padding: 10px;
+
+  color: #fec232;
+  font-weight: bolder;
+  border-radius: 40px;
+}
+.forbox {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20%;
+  margin-left: 5%;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+.fa {
+  position: relative;
+  display: table-cell;
+  width: 60px;
+  height: 36px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.main-menu {
+  background-image: url("forlog2.png");
+  border-right: 1px solid #000000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  width: 260px;
+}
+
+.main-menu li > a {
+  position: relative;
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: #000000;
+  font-family: arial;
+  font-size: 14px;
+  text-decoration: none;
+
+  transition: all 0.1s linear;
+}
+
+.main-menu .nav-icon {
+  position: relative;
+  display: table-cell;
+  width: 60px;
+  height: 36px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.main-menu .nav-text {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  width: 190px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.main-menu > ul.logout {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+nav {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+nav ul,
+nav li {
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+.main-menu li:hover > a,
+nav.main-menu li.active > a,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,
+.dashboard-page nav.dashboard-menu ul li.active a {
+  color: #ce811d;
+  background-color: #f8d50b;
+}
+.area {
+  float: left;
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: fit-content;
+}

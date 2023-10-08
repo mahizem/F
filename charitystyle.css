@@ -1,0 +1,40 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #885233;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+}
+
+.header .logo {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #fec232;
+  text-decoration: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #3a1906;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

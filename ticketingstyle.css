@@ -1,0 +1,50 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #885233;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+  margin-left: 19%;
+}
+
+.header .logo {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #fec232;
+  text-decoration: none;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-top: 200px;
+  align-items: center;
+  text-align: center;
+}
+
+form {
+  margin-top: 100px;
+}
+
+input[type="button"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-image: url("forlog2.png");
+  color: #f0b20a;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+input[type="button"]:hover {
+  background-color: #381d0d;
+}
